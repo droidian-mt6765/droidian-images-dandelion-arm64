@@ -3,14 +3,13 @@
 # xiaomi_dandelion
 xiaomi_dandelion:
   type: image
-  arch: armhf
+  arch: arm64
   edition: phosh
   variant: phone
   apilevel: 29
   use_internal_repository: false
 
   packages:
-    - adaptation-droidian-garden
-    - adaptation-garden-configs
-    - droidian-sysfs-torch
+    - adaptation-droidian-garden-arm64
+    - adaptation-garden-configs-arm64
     - qtwayland5

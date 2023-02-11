@@ -7,8 +7,18 @@ Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based dist
 
 # Default password: 1234
 
+## Vendor installation
+ * This image is for the experimental alps 64 bit vendor. It should only be used for testing purposes.
+ * Download https://github.com/droidian-mt6765/adaptation-droidian-garden/releases/download/adaptation/super.img
+ * Boot to bootloader and run:
+    <pre><code>fastboot flash super super.img</code></pre>
+ * Download https://github.com/droidian-mt6765/adaptation-droidian-garden/releases/download/adaptation/product.img and https://github.com/droidian-mt6765/adaptation-droidian-garden/releases/download/adaptation/vendor.img
+ * Boot to fastbootd and run
+    <pre><code>fastboot flash vendor vendor.img</code></pre>
+    <pre><code>fastboot flash product product.img</code></pre>
+
 ## Installation
- * Download the latest build here: https://github.com/droidian-mt6765/droidian-images-dandelion/releases
+ * Download the latest build here: https://github.com/droidian-mt6765/droidian-images-dandelion-arm64/releases
  * Unpack the zip file
  * Boot to fastboot
  * on Linux run flash_all.sh script:
