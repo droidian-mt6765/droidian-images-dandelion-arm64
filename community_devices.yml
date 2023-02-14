@@ -12,4 +12,11 @@ xiaomi_dandelion:
   packages:
     - adaptation-droidian-garden-arm64
     - adaptation-garden-configs-arm64
+    - droidian-sysfs-torch
     - qtwayland5
+    - linux-bootimage-4.9-190-xiaomi-dandelion
+    - linux-bootimage-xiaomi-dandelion
+    - linux-headers-4.9-190-xiaomi-dandelion
+    - linux-headers-xiaomi-dandelion
+    - linux-image-4.9-190-xiaomi-dandelion
+    - linux-image-xiaomi-dandelion
