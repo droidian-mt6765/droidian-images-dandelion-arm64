@@ -14,9 +14,9 @@ xiaomi_dandelion:
     - adaptation-garden-configs-arm64
     - droidian-sysfs-torch
     - qtwayland5
-    - linux-bootimage-4.9-190-xiaomi-dandelion
-    - linux-bootimage-xiaomi-dandelion
-    - linux-headers-4.9-190-xiaomi-dandelion
-    - linux-headers-xiaomi-dandelion
-    - linux-image-4.9-190-xiaomi-dandelion
-    - linux-image-xiaomi-dandelion
+    - linux-bootimage-4.9-190-xiaomi-dandelion:armhf
+    - linux-bootimage-xiaomi-dandelion:armhf
+    - linux-headers-4.9-190-xiaomi-dandelion:armhf
+    - linux-headers-xiaomi-dandelion:armhf
+    - linux-image-4.9-190-xiaomi-dandelion:armhf
+    - linux-image-xiaomi-dandelion:armhf
