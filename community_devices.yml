@@ -14,3 +14,17 @@ xiaomi_dandelion:
     - adaptation-garden-configs-arm64
     - droidian-sysfs-torch
     - qtwayland5
+
+xiaomi_dandelion-cutie:
+  type: image
+  arch: arm64
+  edition: cutie
+  variant: phone
+  apilevel: 29
+  use_internal_repository: false
+
+  packages:
+    - adaptation-droidian-garden-arm64
+    - adaptation-garden-configs-arm64
+    - droidian-sysfs-torch
+    - qtwayland5
